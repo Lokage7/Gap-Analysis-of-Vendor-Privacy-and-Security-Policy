@@ -31,8 +31,3 @@ This repository documents the project to perform a gap analysis on Best Buy's In
 
 
 
-## Quick Links
-- [Methodology](docs/Methodology.md)
-- [Findings](docs/Findings.md)
-- [Action Plan](docs/Action_Plan.md)
-- [Lessons Learned](docs/Lessons_Learned.md)
