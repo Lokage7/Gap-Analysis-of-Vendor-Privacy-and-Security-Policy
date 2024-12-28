@@ -44,6 +44,17 @@ This repository documents the project to perform a gap analysis on Best Buy's In
 - Clarify processes for rendering data unrecoverable (Requirement 9.4.6).
 - Maintain logs of all pentesting and vulnerability scans for audit purposes.
 
+  
+## Risk Register
+| Risk ID | Category          | Description                                                                | PCI DSS Requirement  | Current Status  | Potential Impact                                                | Mitigation/Action Plan                                            | Risk Owner        | Review Date |
+|---------|-------------------|----------------------------------------------------------------------------|----------------------|-----------------|-----------------------------------------------------------------|-------------------------------------------------------------------|-------------------|-------------|
+| 1       | Information Retention | Data destruction methods not explicitly compliant (cross-cut shredding or incineration not specified). | 9.4.6                | Needs Review    | Unauthorized data recovery could result in non-compliance and breaches. | Review and revise data destruction methods to align with PCI DSS 4.0. | Vendor/Best Buy   | TBD         |
+| 2       | Security Testing   | Vulnerability scans not conducted quarterly (both internal and external). | 11.3.1, 11.3.2       | Non-Compliant   | Increased exposure to undetected vulnerabilities.              | Establish a schedule for quarterly vulnerability scans.            | Vendor IT Team    | TBD         |
+| 3       | Security Testing   | Patching for critical vulnerabilities delayed beyond 30 days.             | 6.3.3                | Non-Compliant   | Higher risk of exploitation of known vulnerabilities.          | Implement a patch management system to prioritize critical updates. | Vendor IT Team    | TBD         |
+| 4       | Network Security   | Weak protocol usage (e.g., FTP, telnet) not explicitly addressed in policy. | 1.2.6                | Needs Improvement | Data interception and unauthorized access risks.              | Update policies to eliminate weak protocols and enforce secure ones. | Vendor/Network    | TBD         |
+| 5       | Lifecycle Security | Patching timelines not aligned with PCI DSS 4.0 for application vulnerabilities. | 6.3.3                | Non-Compliant   | Prolonged exposure to application risks.                        | Establish a process to patch vulnerabilities within the required timeframe. | Vendor IT Team    | TBD         |
+
+
 ## Conclusion
 Overall, the Vendor Privacy and Security Policy is well-aligned with PCI DSS 4.0, with a few gaps requiring immediate attention.
 
